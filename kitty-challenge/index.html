@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The kitty place</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <script defer type="module" src="./app.js"></script>
+  </head>
+  <body>
+    <h1>The Kitty Store</h1>
+    <main>
+      <section>
+        <template id="kitty-card-show">
+          <article></article>
+        </template>
+      </section>
+    </main>
+    <template id="kitty-modal-template">
+      <div class="background"></div>
+      <div class="modal">
+        <div class="content">
+          <h2 id="kitty-name">Kitty Name</h2>
+          <div id="kitty-img">
+            <img src="" alt="" />
+          </div>
+          <p id="kitty-price">$0</p>
+        </div>
+      </div>
+    </template>
+    <!-- kitties-collection-template -->
+    <template id="kitty-card-template">
+      <div class="kitty-card">
+        <h2></h2>
+        <img src="" alt="" />
+        <p></p>
+      </div>
+    </template>
+  </body>
+</html>
